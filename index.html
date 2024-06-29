@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    
+    <link rel="stylesheet" href=" css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./fontawesome/webfonts/fa-brands-400.ttf">
+</head>
+<body>
+
+    <div class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-light text-white">
+        
+            
+            <a class="navbar-brand text-white" href="#">
+                <img src="images/116.png" height="50px"  width="50px">
+                Weather</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ms-auto ml-2 d-flex  ">
+                    <a class="nav-link text-white border border-primary rounded-3" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-white" href="#section2">News</a>
+                    <a class="nav-link text-white" href="#section3">Live Cameras</a>
+                    <a class="nav-link text-white" href="#section4">Photos</a>
+                    <a class="nav-link text-white" href="#section8">Contact</a>
+                  </div>
+                </div>
+            
+          
+        </nav>
+
+    </div>
+
+   
+
+    
+
+
+ <div class="cont">      
+
+ <div class="searchinput">
+
+    <form class="form-inline text-white">
+        <input class="form-control m-4 text-bg-secondary " type="search" placeholder="Find your Location.." id="cityInput">
+        <button class="btn  btn-primary m-4 btn-lg" type="button" id="search" >Find</button>
+   
+    </form>
+
+ </div>  
+
+ 
+
+
+   <div class=" card-group row ">
+
+    
+    <div class="firstday col-md-3">
+
+        <div class="date">
+          <div>
+            <h3 id="todayname">Saturday</h3>
+          </div>
+            <div class="d-flex">
+              
+             <h5 id="todaydate" class="me-2" >13 </h5>
+             <h5 id="todayMonth" >jan </h5>
+            </div>
+
+             
+
+        </div>
+
+      <div class="locationandtemp">
+            <h1 id="todaycountry">Cairo</h1>
+            <h2 id="todayforecast"> <sup>o</sup> C </h2>
+            <img src=" " id="todayimage" alt="" width=auto>
+            
+            <h5 id="todaycondition">Clear</h5>
+
+          <div class="conditions mx-auto">
+
+            <h5 id="humidity" class="m-2" > 20</h5>
+            <h5 id="wind" class="m-2" > 20 </h5>
+            <h5 id="winddir" class="m-2" > 20 </h5>
+          </div>
+            
+
+      </div>
+
+        
+        
+
+    </div>
+
+
+
+    <div class="secondday  col-md-3">
+
+        <div class="date">
+            <h3 class="nextday">Sunday</h3>
+
+        </div>
+
+        <div class="temp">
+        <img src=" " class="nextdayimage" alt="" width=48>
+            <h2 class="nextmaxtemp">17.9 <sup>o</sup> c</h2>
+            <h3 class="nextmintemp">12.7 <sup>o</sup> c</h3>
+            <h5 class="daytwotext">cloudy</h5>
+        </div>
+
+
+    </div>
+
+    <div class="thirdday col-md-3">
+
+        <div class="date">
+            <h3 class="nextday">Monday</h3>
+
+        </div>
+
+        <div class="temp">
+          <img src=" " class="nextdayimage" alt="" width=48>
+              <h2 class="nextmaxtemp">17.9 <sup>o</sup> c</h2>
+              <h3 class="nextmintemp">12.7 <sup>o</sup> c</h3>
+              <h5 class="daytwotext">sunny</h5>
+          </div>
+  
+    </div>
+
+  </div>
+
+  
+ 
+  
+ </div>
+ 
+
+ 
+    <div class="footer row">  
+        
+         <div class="subscribe col-md-6 ">
+         
+          <form class="form-inline">
+            <input class="form-control m-2" type="search" id="subscribe" placeholder="Enter your email to subscribe" >
+            <button class="btn  btn-primary m-2 btn-lg" id="search" >Subscribe</button>
+          </form>
+                  
+          <h6>Copyright 2014 Company name. Designed by Themezy. All rights reserved</h6>
+               
+         </div>
+      
+      
+    
+          <div class="socialmedia col-md-6">
+
+            <a href="#">
+              
+
+              <i class="fa-brands fa-facebook-f"></i>
+                
+            </a>
+            <a href="#">
+              
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-google-plus"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-pinterest"></i>
+            </a>
+
+          </div>
+
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box; 
+    
+    
+}
+
+
+
+.navbar {
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    background-color: #1e202b;
+    
+}
+
+.header{
+
+    width: 100%;
+}
+
+
+.cont{
+
+background-image: url(../images/banner.png); 
+background-repeat: no-repeat;
+background-size:cover;
+margin: 0px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.searchinput{
+   
+    width: 75%;
+}
+
+.form-inline{
+   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+
+
+#cityInput{
+    background-color: #1e202b;
+   
+    border-radius: 50px;
+}
+
+
+.card-group{
+
+   display: flex;
+   text-align: center;
+   justify-content: space-evenly;
+   width: 100%;
+    
+}
+
+.col-md-3{
+
+margin: 10px;
+background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));  
+color: white;
+border-radius: 20px;
+box-shadow: 5px 5px #3a3737;
+    
+}
+
+
+
+.date{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.locationandtemp{
+    padding: 20px;
+    
+}
+
+
+
+.temp{
+    padding: 20px;
+    
+}
+
+
+.conditions{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.conditions.h5{
+ margin: 10px;
+}
+
+
+.footer{
+  
+    background-color: #1e202b;
+    color: white;
+    justify-content: space-around;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#subscribe{
+
+    width: 600px;
+    border-radius: 50px;
+    
+}
+
+#search{
+
+    border-radius: 50px;
+}
+
+h6{
+    font-size: small;
+    margin: 20px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.socialmedia{
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.socialmedia a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    
+    width: 40px;
+    height: 40px;
+    background-color: #7FD2DC;
+    color: #009ad8;
+    border-radius: 50px;
+    text-decoration: none;
+    
+}
